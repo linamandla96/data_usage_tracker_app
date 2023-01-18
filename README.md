@@ -33,35 +33,36 @@ Method name | Description
 
 If you send a user data you earn points - which will give you more data upon top-up
 
+The data cost per mb is `R0.09` or `9 cents` per mb for all students.
+
 ## Table structure
 
-* Create 3 tables: learner, application & `userCode(username)` | Create a username & code for a. 	
- table
-The data cost per mb is R0.09 or 9 cents per mb for all students.
+Create 3 tables: 
 
+* learner, 
+* application
+* learner_application_usage
 
+### The learner_table has these fields:
 
+* `id`
+* `first_name`
+* `last_name`
+* `email`
+* `usercode`
 
-### The learner_application table has these fields: 
+### The learner_application_usage table has these fields: 
 
-`id,`
-`leaner_id,`
-`app_id,`
-`minutes`
+* `id,`
+* `leaner_id,`
+* `app_id,`
+* `minutes_used`
 
 ### The application table has these fields:
  
-`id,` 
-`name,`
-`usage_per_minute`
-
-
-
-
-
-
-
-
+* `id,` 
+* `name,`
+* `usage_per_minute`
 
 
 
