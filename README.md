@@ -69,3 +69,8 @@ Note that the `application` table is populated using a sql script using `insert`
 * `id,` 
 * `name,`
 * `usage_per_minute`
+
+## Todo
+
+Clone and fork this repo and email your work to `mentors@projectcodex.co` once done.
+
