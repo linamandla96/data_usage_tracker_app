@@ -49,7 +49,7 @@ Create 3 tables:
 * `last_name`
 * `email`
 * `usercode`
-* data_balance -> s`tarts with 500mb`
+* `data_balance` -> `starts with 500mb`
 
 ### The learner_application_usage table has these fields: 
 
