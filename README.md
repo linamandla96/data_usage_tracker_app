@@ -4,10 +4,9 @@ Your community school wants to roll out a data consumption tracker app to help t
 
 You are asked to help them create the web application. Each student is sent `500mb` of data per month. The students can top-up if they have run out of data. There's is a usage string for all the apps e.g `("YouTube, Sportify, Zoom, Slack, Khan Academy")` Each app got data usage per minute. 
 
-
 `Calculate the total usage based on the Apps and minutes entered.`
 
-### Note:
+This functionality is needed:
 
 * Create a code for a user upon registration
 * Each user starts with a data balance starts of 500mb
@@ -50,6 +49,7 @@ Create 3 tables:
 * `last_name`
 * `email`
 * `usercode`
+* data_balance -> s`tarts with 500mb`
 
 ### The learner_application_usage table has these fields: 
 
