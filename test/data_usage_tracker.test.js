@@ -3,7 +3,7 @@ import DataUsageTracker from '../data_usage_tracker.js';
 import pgPromise from 'pg-promise';
 
 // TODO configure this to work.
-const DATABASE_URL = process.env.DATABASE_URL || "postgresql://localhost:5432/data_usage_tracker_test";
+const DATABASE_URL = process.env.DATABASE_URL || "postgresql://codex_user:codex123@localhost:5432/data_usage_tracker_test";
 
 const config = { 
 	connectionString : DATABASE_URL
