@@ -17,12 +17,12 @@ This functionality is needed:
 
 ## Factory Function 
 
-Create a factory function called `DataUsageTracker`
+Create a factory function called `DataUsageTracker` it should have the functions mentioned below.
 
 Method name | Description
 ------------------------ | ---------------
-`registerUser(first_name, last_name, email)` | Create a username & code for a user
-`findUser(usercode)` | Find a user by code.
+`registerUser(first_name, last_name, email)` | Create a user in the database. Use https://www.npmjs.com/package/uid to create the id for the user.
+`findUser(usercode)` | Find a user by code. Returns the user object from the database.
 `registerAppUsage(usercode, app_id, minUsed)` | Record app usage for a given app & user
 `totalCostPerUser(usercode)` | Total usage cost per user. Calculated from minutes recorded & cost
 `totalUsage` |  Total usage across all apps & users
