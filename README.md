@@ -4,7 +4,7 @@ Your community school wants to roll out a data consumption tracker app to help t
 
 You are asked to help them create the web application. Each student is sent `500mb` of data per month. The students can top-up if they have run out of data. There's is a usage string for all the apps e.g `("YouTube, Sportify, Zoom, Slack, Khan Academy")` Each app got data usage per minute. 
 
-`Calculate the total usage based on the Apps and minutes entered.`
+The main app functionality is to - `Calculate the total data usage based on the Apps and minutes entered for each learner.`
 
 This functionality is needed:
 
