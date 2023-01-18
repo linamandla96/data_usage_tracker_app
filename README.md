@@ -19,6 +19,8 @@ This functionality is needed:
 
 Create a factory function called `DataUsageTracker` it should have the functions mentioned below.
 
+Use `PostgreSQL` and `SQL` with NodeJS to create these functions.
+
 Method name | Description
 ------------------------ | ---------------
 `registerUser(first_name, last_name, email)` | Create a user in the database. Use https://www.npmjs.com/package/uid to create the id for the user.
@@ -36,13 +38,13 @@ Use TDD - Ensure all the methods above is tested using Mocha.
 Ensure your tests are running in GitHub Actions.
 Add your SQL scripts to GitHub.
 
-## Table structure
+## Table to create
 
 Create 3 tables: 
 
-* learner, 
-* application
-* learner_application_usage.
+* `learner`, 
+* `application`
+* `learner_application_usage`.
 
 Create the SQL scripts to create these tables and add it to a `sql` folder in your project folder.
 
