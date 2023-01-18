@@ -46,8 +46,7 @@ Create 3 tables:
 
 Create the SQL scripts to create these tables and add it to a `sql` folder in your project folder.
 
-Note that the `application` folder is populated using a sql script. New users and app usage should be added via the `DataUsageTracker` Factory Function.
-
+Note that the `application` table is populated using a sql script using `insert` statements. New users and app usage should be added via the `DataUsageTracker` Factory Function.
 
 ### The learner_table has these fields:
 
