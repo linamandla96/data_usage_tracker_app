@@ -49,14 +49,14 @@ Create 3 tables:
 * `last_name`
 * `email`
 * `usercode`
-* `data_balance` -> `starts with 500mb`
+* `data_balance` -> `starts with 500mb` - this column is a number.
 
 ### The learner_application_usage table has these fields: 
 
 * `id,`
 * `leaner_id,`
 * `app_id,`
-* `minutes_used`
+* `minutes_used` -
 
 ### The application table has these fields:
  
