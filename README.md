@@ -28,11 +28,13 @@ Method name | Description
 `totalUsage` |  Total usage across all apps & users
 `availableData(usercode)` |  Show how much data is still available for use.
 `mostUsedApp(usercode)` |  Return the app the user spend the most money on. Also returned how mush was spent ` {app_name : 'Spox', amount : 230} `
-`sendDataToAnotherUser(from_user_code, to_user_code, airtime)` |  Send another user data. You own data should decreas and the users data should decrease.
-
-If you send a user data you earn points - which will give you more data upon top-up
+`sendDataToAnotherUser(from_user_code, to_user_code, airtime)` |  Send another user data. You own data should decreas and the users data should increase.
 
 The data cost per mb is `R0.09` or `9 cents` per mb for all students.
+
+Use TDD - Ensure all the methods above is tested using Mocha.
+Ensure your tests are running in GitHub Actions.
+Add your SQL scripts to GitHub.
 
 ## Table structure
 
@@ -40,7 +42,12 @@ Create 3 tables:
 
 * learner, 
 * application
-* learner_application_usage
+* learner_application_usage.
+
+Create the SQL scripts to create these tables and add it to a `sql` folder in your project folder.
+
+Note that the `application` folder is populated using a sql script. New users and app usage should be added via the `DataUsageTracker` Factory Function.
+
 
 ### The learner_table has these fields:
 
@@ -63,6 +70,3 @@ Create 3 tables:
 * `id,` 
 * `name,`
 * `usage_per_minute`
-
-
-
